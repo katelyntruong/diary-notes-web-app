@@ -1,0 +1,10 @@
+{% extends "diary_notes/base.html" %}
+{% block page_header %}
+    <div class="jumbotron">
+        <h1 class="display-3">Your personal space</h1>
+        <p class="lead">Gathering your thoughts, and keeping a list of your
+    journals in an organized space. Whatever you feel, you can 'see' it by making entry and put your thoughts on it.</p>
+        <a class="btn btn-lg btn-dark" href="{% url 'users:register' %}"
+    role="button">Register &raquo;</a>
+    </div>
+{% endblock page_header %}

@@ -1,0 +1,1 @@
+web: gunicorn diary_notes.wsgi --log-file -
